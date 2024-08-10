@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+  background-color: #e9edc9;
+  border: 2px solid #ccd5ae;
+  border-radius: 40px;
+}
+
+.intro {
+  margin-bottom: 20px;
+  font-size: 20px;
+  padding: 0px 20px;
+  display: flex;
+  width: 90%;
+  text-align: justify;
+  align-items: center;
+}
+
+.instructionsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.instTitle {
+  margin-bottom: 20px;
+}
+
+.mainList {
+  line-height: 28px;
+}
+
+.mainListItem > div {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.subList {
+  font-size: 16px;
+  color: rgb(80, 77, 77);
+  line-height: 22px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.buttonContainer button {
+  margin: 0px 20px;
+  padding: 10px 10px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: #606c38;
+  color: white;
+  border: 1px solid #283618;
+}
