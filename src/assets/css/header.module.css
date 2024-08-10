@@ -1,0 +1,14 @@
+.header {
+  background-color: #283618;
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway";
+}
+
+.header h1 {
+  text-align: center;
+}

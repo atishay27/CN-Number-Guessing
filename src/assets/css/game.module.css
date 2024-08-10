@@ -1,0 +1,65 @@
+.gameContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.playerInfo {
+  font-size: 25px;
+  margin-bottom: 40px;
+  background-color: #faedcd;
+  color: #283618;
+  padding: 10px;
+  border: 1px solid #d4a373;
+}
+
+.guessInput {
+  font-size: 25px;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  border: none;
+  outline: 1px solid #283618;
+  color: #283618;
+}
+.guessInput:focus {
+  outline: 2px solid #283618;
+}
+.guessInput::placeholder {
+  color: #ccd5ae;
+}
+
+.guessBtn {
+  font-size: 25px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  background-color: #606c38;
+  color: white;
+  border: 1px solid #283618;
+}
+
+.selectedText {
+  color: #283618;
+  font-size: 32px;
+}
+
+.selectedText > b {
+  font-size: 36px;
+}
+
+.resultText {
+  font-size: 42px;
+  margin: 15px 0px;
+  padding: 10px;
+}
+
+.incorrect {
+  color: #780000;
+}
+
+.hintText {
+  font-size: 18px;
+  color: #283618;
+}

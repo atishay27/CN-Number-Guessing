@@ -1,0 +1,32 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameInput {
+  font-size: 25px;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  border: none;
+  outline: 1px solid #283618;
+  color: #283618;
+}
+.nameInput:focus {
+  outline: 2px solid #283618;
+}
+.nameInput::placeholder {
+  color: #ccd5ae;
+}
+
+.startBtn {
+  font-size: 25px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  background-color: #606c38;
+  color: white;
+  border: 1px solid #283618;
+}
